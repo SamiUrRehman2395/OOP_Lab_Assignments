@@ -59,7 +59,7 @@ public class HelloApplication extends Application {
         Label cityLabel = new Label("City:");
         ComboBox<String> cityComboBox = new ComboBox<>();
 
-        cityComboBox.getItems().addAll("Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta");
+        cityComboBox.getItems().addAll("Karachi", "Lahore", "Islamabad", "Multan", "Faisalabad");
 
         Label imageLabel = new Label("Image");
         ImageView imageView = new ImageView();
